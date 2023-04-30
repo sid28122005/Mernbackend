@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Piazzolla", serif;
+}
+
+:root{
+    --main-bg: #1e272e;
+    --main-color: #0097e6;
+}
+
+html{
+    font-size: 80%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    margin: 0;
+}
+
+.main_menu{
+    background-color: var(--main-bg);
+}
+
+.navbar{
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.navbar li {
+    margin-left: 2rem;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.navbar-nav .nav-link.active{
+    color: #fff;
+}
+ 
+.navbar-toggler {
+    background-color: grey;
+}
+
+.img imgrt{
+    size: 5px;
+}
+
+div.container.register.mb-5{
+    background: linear-gradient(to right, #0000ff 0%, #00ffff 100%);
+    padding: 1rem;
+}
+div.col-md-9.register-right{
+    background: #fbf8f8;
+    padding: 4rem;
+    /* border-radius: 10rem 0 0 10rem; */
+    position: relative;
+    margin: 20px 0;
+    border-radius: 50% / 10%;
+    color: white;
+        
+}
+div.row.register-form{
+    background: #fbf8f8;
+    padding: 0;
+}
+ul#mytab.nav.nav-tabs.nav-justified{
+    background-color: #0000ff;
+}
